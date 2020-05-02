@@ -2,7 +2,7 @@ from __future__ import print_function
 import Pyro4
 
 @Pyro4.expose
-#@Pyro4.behavior(instance_mode="single")
+@Pyro4.behavior(instance_mode="single")
 class Warehouse(object):
     def __init__(self):
         self.contents = []
