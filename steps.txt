@@ -1,0 +1,2 @@
+--> Run python -m Pyro4.naming on the server
+--> or pyro4-ns -n your_hostname for remote acess. your_hostname is the ip adress
